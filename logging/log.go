@@ -2,7 +2,7 @@ package logging
 
 import (
 	"fmt"
-	"go-link-helper/file"
+	"githubt/a624669980/go-link-helper/file"
 	"log"
 	"os"
 	"path/filepath"
