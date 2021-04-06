@@ -1,7 +1,6 @@
 package cacheHelper
 
 import (
-	"github.com/astaxie/beego/cache"
 	"github.com/patrickmn/go-cache"
 	"sync"
 	"time"
