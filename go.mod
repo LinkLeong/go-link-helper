@@ -1,4 +1,4 @@
-module githubt/a624669980/go-link-helper
+module github.com/a624669980/go-link-helper
 
 go 1.16
 
