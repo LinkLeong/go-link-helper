@@ -36,7 +36,7 @@ func Setup( op ConsulOpt) error {
 	registration.ID = id
 	registration.Name = op.Name
 	registration.Port = op.LocalPort
-	registration.Tags = []string{"testService"}
+	registration.Tags = op.Tags
 	registration.Address = op.LocalIp
 
 	// 增加consul健康检查回调函数
